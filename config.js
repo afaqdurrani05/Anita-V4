@@ -5,7 +5,7 @@ require('dotenv').config();
 const toBool = (value) => value === "true";
 
 // Owner & Bot Details
-global.owner = process.env.OWNER_NUMBER; "923279118877"
+global.owner = process.env.OWNER_NUMBER;
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
 global.ownername = process.env.OWNER_NAME || "𝐌𝐑_𝐇𝐀𝐂𝐊𝐄𝐑";
 global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
